@@ -1,8 +1,6 @@
-# Code Refactor Starter Code
-Module 1 Challenge - UCI Bootcamp 05-12-22
 
-Refactored client website(Horiseon) for ease of reading and editing in future applications. Fixed code with incorrect syntax, non-working links, added alternative titles to img tags, and consolidated redundant CSS declaration blocks. All alterations made with no change to overall feel and design of original website. 
+Portfolio containing information, contact links, known lanuages, as well as showcasing past projects for Parin Thalangdee.
 
-[Deployed Application Link](https://parinthalangdee.github.io/Module-1-Challenge/)
+[Deployed Application Link](https://parinthalangdee.github.io/Module-2-Challenge/)
 
-![Application Screenshot](./Module%201%20Challenge%20Screenshot.png)
+![Module 2 Challenge Screenshot](./assets/images/Module-2-Challenge-Screenshot.png)
