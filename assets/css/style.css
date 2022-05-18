@@ -3,6 +3,7 @@
     font-family: 'Roboto Mono', monospace;
 }
 
+/* Name and nav container  */
 header {
     display: flex;
     justify-content: space-between;
@@ -20,6 +21,7 @@ nav {
     margin: 15px;
 }
 
+/* About me section with portrait and contact me aside  */
 .aboutBanner {
     text-align: center;
     margin: 50px;
@@ -53,6 +55,7 @@ aside   {
     max-width: 250px;
 }
 
+/* technologies banner and language logos container  */
 .techBanner {
     text-align: center;
 }
@@ -66,6 +69,7 @@ aside   {
     margin: 50px;
 }
 
+/* project banner and photos/links  */
 .projectBanner {
     text-align: center;
     margin: 10px 0px 40px 0px;
@@ -86,6 +90,7 @@ aside   {
     -o-transition:transform .2s;
 }
 
+/* Zoom feature for project photos  */
 .projectPhoto:hover {
         transform: scale(1.25);
         -webkit-transform: scale(1.25);
@@ -100,6 +105,7 @@ footer {
     margin: 50px 0px 50px 0px;
 }
 
+/* media query for tablet sized devices. Flex boxes switch from row to column  */
 @media only screen and (max-width: 912px) {
     * {
         display: flex;
@@ -150,7 +156,7 @@ footer {
     }
 
 }
-
+/* media query for cell phone sized devices. flex boxes stay in column  */
 @media only screen and (max-width: 414px) {
     * {
         display: flex;
