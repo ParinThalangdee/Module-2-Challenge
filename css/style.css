@@ -1,0 +1,224 @@
+* {
+    background-color: white;
+    font-family: 'Roboto Mono', monospace;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.name {
+    margin: 25px 25px 25px 100px;
+}
+
+nav {
+    margin: 40px 80px 40px 40px;
+}
+
+.navItem {
+    margin: 15px;
+}
+
+.aboutBanner {
+    text-align: center;
+    margin: 50px;
+}
+
+#aboutContainer {
+    display: flex;
+    justify-content: center;
+}
+
+.portrait {
+    flex: 1;
+    margin: 25px;
+    max-width: 459px;
+    max-height: 459px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+article {
+    flex: 2;
+    padding: 10px;
+    margin: 20px;
+}
+
+aside   {
+    flex: 1;
+    max-width: 250px;
+}
+
+.techBanner {
+    text-align: center;
+}
+
+.techPhotoContainer {
+    display: flex;
+    justify-content: center;
+}
+
+.techPhoto {
+    margin: 50px;
+}
+
+.projectBanner {
+    text-align: center;
+    margin: 10px 0px 40px 0px;
+}
+
+.projectPhotoContainer {
+    display: flex;
+    justify-content: center;
+}
+
+.projectPhoto {
+    margin: 10px;
+    max-width: 200px;
+    transition:transform .2s;
+    -webkit-transition:transform .2s;
+    -moz-transition:transform .2s;
+    -ms-transition:transform .2s;
+    -o-transition:transform .2s;
+}
+
+.projectPhoto:hover {
+        transform: scale(1.25);
+        -webkit-transform: scale(1.25);
+        -moz-transform: scale(1.25);
+        -ms-transform: scale(1.25);
+        -o-transform: scale(1.25);
+}
+
+footer {
+    display:flex;
+    justify-content: center;
+    margin: 50px 0px 50px 0px;
+}
+
+@media only screen and (max-width: 912px) {
+    * {
+        display: flex;
+        flex-direction: column;
+        max-width: 912px;
+    }
+
+    .name {
+        margin: 0% 0% 0% 32%;
+    }
+
+    nav {
+        flex-direction: row;
+        margin: 0px 0px 0px 25%;
+    }
+
+    .aboutBanner {
+        margin: 5% 0% 3% 0%;
+    }
+
+    .portrait {
+        margin: 0% 0% 0% 22%;
+    }
+
+    article {
+        max-width: 70%;
+        margin: 5% 0% 0% 15%;
+    }
+
+    aside {
+        text-align: center;
+        margin: 0% 0% 0% 34%;
+    }
+
+    .techPhotoContainer {
+        flex-direction: row;        
+    }
+
+    .techBanner {
+        margin: 5% 0% 0% 0%;
+    }
+    
+    .projectPhotoContainer {
+        flex-direction: row;
+        flex-wrap: wrap;
+        max-width: 75%;
+        margin: 0% 0% 0% 12%;
+    }
+
+}
+
+@media only screen and (max-width: 414px) {
+    * {
+        display: flex;
+        flex-direction: column;
+        max-width: 390px;
+    }
+
+    .name {
+        margin: 0% 0% 0% 30%;
+    }
+
+    nav {
+        flex-direction: row;
+        margin: 0px 0px 0px 7%;
+    }
+
+    .navItem {
+        margin: 10px 10px 10px 0px;
+    }
+
+    .aboutBanner {
+        margin: 5% 0% 3% 0%;
+    }
+
+    .portrait {
+        margin: 0% 0% 0% 3%;
+    }
+
+    article {
+        max-width: 70%;
+        margin: 5% 0% 0% 15%;
+    }
+
+    aside {
+        text-align: center;
+        margin: 0% 0% 0% 17%;
+    }
+
+    .techBanner {
+        margin: 5% 0% 0% 50%;
+    }
+
+    .techPhotoContainer {
+        flex-direction: row;
+        margin: 0px 0px 0px 20px;        
+    }
+
+    .techBanner {
+        margin: 20px 0px 10px 10px;
+    }
+
+    .techPhoto {
+        max-width: 100px;
+        margin: 10px 10px 0px 5px;
+    }
+
+    .projectBanner {
+        margin: 10% 0% 0% 5%;
+    }
+    
+    .projectPhotoContainer {
+        flex-direction: row;
+        flex-wrap: wrap;
+        max-width: 100%;
+        margin: 0% 0% 0% 5%;
+    }
+
+    .projectPhoto {
+        max-width: 110px;
+    }
+}
