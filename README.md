@@ -14,7 +14,7 @@
 
 This is a working portfolio for Parin Thalangdee. In the portolio is a showcase of his personality, known technologies, and past projects.
   
-## #Deployed Application Link
+## Deployed Application Link
   
 [Application Link](https://parinthalangdee.github.io/Module-2-Challenge/)
 
