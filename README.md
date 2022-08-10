@@ -10,7 +10,7 @@
 * [Contributing](#contributing)
 * [Questions](#questions)
   
-## #Description
+## Description
 
 This is a working portfolio for Parin Thalangdee. In the portolio is a showcase of his personality, known technologies, and past projects.
   
