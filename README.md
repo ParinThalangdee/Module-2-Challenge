@@ -18,7 +18,7 @@ This is a working portfolio for Parin Thalangdee. In the portolio is a showcase 
   
 [Application Link](https://parinthalangdee.github.io/Module-2-Challenge/)
 
-## #License
+## License
 
 The application is covered under the following license:
 
